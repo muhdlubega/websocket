@@ -36,9 +36,9 @@ const Banner = () => {
   return (
     <div style={classes.banner}>
       <div style={{ margin: "0 auto", maxWidth: "960px" }}>
-        <h2 style={classes.title}>Crypto King</h2>
+        <h2 style={classes.title}>TraderKing</h2>
         <p style={classes.tagline}>
-          The future of crypto. Right here. Right now.
+          The future of trading. Powered by Deriv API
         </p>
         <Carousel />
       </div>

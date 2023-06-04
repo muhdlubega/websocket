@@ -32,7 +32,7 @@ const Header = () => {
               alt="logo"
               height={40}
             />
-            Crypto King
+            TraderKing
           </h1>
           <select
             value={currency}
