@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { CryptoState } from "../CryptoContext";
-import { CoinList } from "../config/api";
+import { CryptoState } from "../../CryptoContext";
+import { CoinList } from "../../config/api";
 import axios from "axios";
 import { numbersWithCommas } from "./Carousel";
 

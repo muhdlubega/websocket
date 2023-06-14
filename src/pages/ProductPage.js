@@ -1,9 +1,10 @@
 import React from 'react'
 import Header from '../components/Header'
-import Product from '../components/Product'
-import Proposal from '../components/Proposal'
-import Contract from '../components/Contract'
+import Product from '../components/ProductPage/Product'
+import Proposal from '../components/ProductPage/Proposal'
+import Contract from '../components/ProductPage/Contract'
 import '../App.css'
+import Connection from '../components/ProductPage/Connection'
 
 const ProductPage = () => {
   return (
@@ -16,6 +17,7 @@ const ProductPage = () => {
         <div style={{ flex: 1 }}>
         <Proposal/>
         <Contract/>
+        <Connection/>
         </div>
         </div>
     </div>

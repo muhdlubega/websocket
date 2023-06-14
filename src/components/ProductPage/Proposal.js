@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 import DerivAPIBasic from "https://cdn.skypack.dev/@deriv/deriv-api/dist/DerivAPIBasic";
-import '../App.css';
+import '../../App.css';
 
 const app_id = 1089;
 const connection = new WebSocket(
@@ -16,7 +16,7 @@ const Proposal = () => {
   const proposal_request = {
     proposal: 1,
     subscribe: 1,
-    amount: 10,
+    amount: 100,
     basis: "payout",
     contract_type: "CALL",
     currency: "USD",

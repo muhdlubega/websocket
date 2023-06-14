@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { CryptoState } from "../CryptoContext";
-import { TrendingCoins } from "../config/api";
+import { CryptoState } from "../../CryptoContext";
+import { TrendingCoins } from "../../config/api";
 import axios from "axios";
 import AliceCarousel from "react-alice-carousel";
 import { Link } from "react-router-dom";
